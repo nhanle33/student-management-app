@@ -1,0 +1,84 @@
+.class-management-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.class-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.class-header h2 {
+  margin: 0;
+  color: #282c34;
+}
+
+.class-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  align-items: flex-end;
+}
+
+.class-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.class-form .form-group label {
+  font-weight: 600;
+  color: #282c34;
+  font-size: 12px;
+}
+
+.class-form .form-group input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.class-form .btn {
+  padding: 8px 15px;
+}
+
+.class-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.class-table thead {
+  background-color: #f0f0f0;
+}
+
+.class-table th,
+.class-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.class-table th {
+  font-weight: bold;
+  color: #282c34;
+}
+
+.class-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.empty-message {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
